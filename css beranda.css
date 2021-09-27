@@ -1,0 +1,31 @@
+.badan{
+  width:1335px;
+  height:1300px;
+  background-color:#F1CFB0;
+
+	}
+.kiri {
+  width:280px;
+  height: 620px;
+  background:url(19742.jpg);
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:12px;
+  color:#000000;
+  margin-top:15px;
+  margin-left:5px;
+  float:left;
+  border-width:medium;
+  border-style:ridge;
+}
+.kanan {
+  width:1020px;
+  height: 1200px;
+  background:url(19742.jpg);
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:14px;
+  color:#000000;
+  margin-top:15px;
+  float:left;
+  margin-left:15px;
+  border-style:ridge;
+}
