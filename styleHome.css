@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: century gothic;
+}
+
+header{
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(bg.jpg);
+height: 2500px;
+max-width: 100%;
+background-size: 2500px, 2500px;
+background-position: center;
+}
+.main ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 20px;
+}
+
+.main >ul>li {
+    display: inline-block;
+}
+.main li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #f57d58;
+    padding: 10px 15px;
+    /* border: 1px solid transparent; */
+    transition: 0.6s;
+}
+
+.main li a:hover{
+    background-color: white;
+    color: black;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+} 
+/* sub main informasi */
+li.subInformasi{
+    display: inline-block;
+}
+.subInformasi:hover .isisub{
+    display: block;
+}
+.isisub{
+    font-weight: bold;
+    position: absolute;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,2);
+    z-index: 1;
+   background-color:transparent;
+
+}
+.isisub a{
+    color: #f57d58  !important;
+}
+.isisub a:hover{
+    color: #232323 !important;
+    background: #f3f3f3 !important;
+}
+/* sub main galeri */
+li.subgaleri{
+    display: inline-block;
+}
+.subgaleri:hover .isigaleri{
+    display: block;
+}
+.isigaleri{
+    position: absolute;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,2);
+    z-index: 1;
+   background-color:transparent;
+
+}
+.isigaleri a{
+    color: #f57d58 !important;
+}
+.isisub a:hover{
+    color: #232323 !important;
+    background: #f3f3f3 !important;
+}
